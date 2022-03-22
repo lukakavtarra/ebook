@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "FiraGO", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    background-color: yellow;
+    margin: 7rem 0 0 0;
+    font-size: 42px;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+h2 {
+    text-align: center;
+    border: 1px solid yellow;
+    margin: 1rem 40rem;
+    padding: 1rem;
+    font-size: 36px;
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    right: 0;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: absolute;
+    top: 20rem;
+}
+
+p {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.just-photo-of-sigels {
+    grid-area: 1 / 1 / 2 / 2;
+    left: 155px;
+    position: relative;
+}
+
+.military-coup {
+    grid-area: 1 / 2 / 2 / 3;
+    top: 41px;
+    left: 232px;
+    position: relative;
+}
+
+.haake-text {
+    grid-area: 2 / 1 / 4 / 2;
+    max-width: 500px;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.haake-cont {
+    grid-area: 2 / 2 / 3 / 3;
+    column-count: 2;
+    max-width: 645px;
+    column-gap: 21px;
+}
+
+.first-pic {
+    width: 473px;
+    height: 515px;
+    margin-bottom: 50px;
+}
+
+.figupcaption {
+    text-align: center;
+    position: relative;
+    right: 5rem;
+    font-size: 15px;
+    font-weight: 600;
+    max-width: 44rem;
+    margin-bottom: 29px;
+}
+
+figcaption {
+    margin-bottom: 50px;
+}
+
+.yellow-line {
+    border: 5px solid yellow;
+    background-color: yellow;
+    position: absolute;
+    width: 36.7669px;
+    right: 0;
+    height: 2394.7411px;
+}
+
+.yellow-line2 {
+    border: 5px solid yellow;
+    background-color: yellow;
+    position: absolute;
+    width: 36.7669px;
+    left: 0;
+    height: 2394.7411px;
+    top: 157rem;
+}
+
+.yellow-line3 {
+    border: 5px solid yellow;
+    background-color: yellow;
+    position: absolute;
+    top: 170rem;
+    z-index: -1;
+    width: 63rem;
+    height: 91rem;
+}
+
+.yellow-line4 {
+    border: 5px solid yellow;
+    background-color: yellow;
+    position: absolute;
+    width: 36.7669px;
+    left: 0;
+    height: 290rem;
+    top: 157rem;
+    z-index: -1;
+}
+
+.black-line-row {
+    border: 5px solid black;
+    background-color: black;
+    position: absolute;
+    width: 652.709px;
+    right: 0;
+    top: 196rem;
+}
+
+.black-line-row1 {
+    border: 5px solid black;
+    background-color: black;
+    position: absolute;
+    width: 824.709px;
+    right: 0;
+    /* top: 0; */
+    margin: 35px 0;
+}
+
+.yellow-line-row {
+    border: 5px solid yellow;
+    background-color: yellow;
+    position: absolute;
+    width: 652.709px;
+    right: 0;
+    height: 29.1475px;
+    top: 81rem;
+}
+
+.yellow-line-row2 {
+    border: 5px solid yellow;
+    background-color: yellow;
+    position: absolute;
+    width: 652.709px;
+    left: 0;
+    height: 29.1475px;
+    top: 157rem;
+}
+
+.yellow-line-row3 {
+    border: 5px solid yellow;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 29.1475px;
+    top: 258rem;
+}
+
+.yellow-line-row4 {
+    border-top: 5px solid #525252;
+    /* background-color: black; */
+    position: absolute;
+    left: 198px;
+    width: 100%;
+    height: 1px;
+    top: 306rem;
+    z-index: 1;
+}
+
+.yellow-line-row5 {
+    border-top: yellow;
+    background-color: yellow;
+    position: absolute;
+    left: -65px;
+    width: 236rem;
+    height: 279px;
+    /* top: 306rem; */
+    bottom: 1rem;
+    z-index: -1;
+}
+
+.yellow-line-biggest {
+    border: 5px solid yellow;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    left: 56rem;
+    height: 157rem;
+    top: 258rem;
+}
+
+.military-coup-bbc {
+    position: relative;
+    right: 44rem;
+    top: 13rem;
+}
+
+.military-coup-bbc img {
+    margin-bottom: 4rem;
+    width: 1117.6237px;
+    height: 597.4986px;
+    position: relative;
+    /* left: 54px; */
+}
+
+.about-military-coup-bbc {
+    max-width: 581.2771px;
+    line-height: 38px;
+    font-weight: 600;
+}
+
+.military-coup-bbc p {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.round-circle-small {
+    background-color: black;
+    border: solid;
+    border-radius: 50%;
+    position: absolute;
+    width: 144.1658px;
+    height: 144.1658px;
+    top: 130rem;
+    left: 50rem;
+}
+
+.round-circle-big {
+    background-color: black;
+    border: solid;
+    border-radius: 50%;
+    position: absolute;
+    width: 524.8148px;
+    height: 524.8148px;
+    top: 130rem;
+    left: 86rem;
+    color: white;
+}
+
+.round-circle-big p {
+    position: absolute;
+    top: 13rem;
+    max-width: 343.7706px;
+    left: 8rem;
+}
+
+.brackets {
+    font-size: 368.33pt;
+    color: yellow;
+    top: -168px !important;
+    font-weight: 600;
+    position: relative !important;
+    font-family: "FiraGO";
+    left: 48px !important;
+}
+
+.brackets2 {
+    font-size: 368.33pt;
+    font-weight: 600;
+    color: yellow;
+    top: 145px !important;
+    position: relative !important;
+    font-family: "FiraGO";
+}
+
+.brackets2 {
+    font-size: 368.33pt;
+    font-weight: 600;
+    color: yellow;
+    top: -207px !important;
+    position: relative !important;
+    font-family: "FiraGO";
+    left: 223px !important;
+}
+
+.new-york-times-amonaridi {
+    display: flex;
+}
+
+.new-york-times-amonaridi img {
+    position: absolute;
+    right: 98rem;
+    top: 140rem;
+    border: solid;
+}
+
+.new-york-times-amonaridi p {
+    position: absolute;
+    left: 0rem;
+    top: 142rem;
+    max-width: 587.0469px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.gazeti,
+.certification,
+.another-galery {
+    display: flex;
+    position: relative;
+    right: 37rem;
+    top: 60rem;
+}
+
+.gazeti img {
+    margin-left: 9rem;
+    border: 6px solid;
+    padding: 2rem;
+    position: relative;
+    left: 134px;
+    width: 28rem;
+}
+
+.gazeti p,
+.certification p {
+    max-width: 555.3658px;
+    right: 10rem;
+    position: relative;
+    width: 614px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.gazeti p span,
+.certification p span {
+    position: relative;
+    top: 20px;
+}
+
+.certification {
+    position: relative;
+    top: 70rem;
+    right: 46rem;
+}
+
+.certification img {
+    width: 500px;
+}
+
+.certification p {
+    position: relative;
+    left: 19rem;
+    top: 2rem;
+    line-height: 1.9rem;
+    font-weight: 300;
+}
+
+.black-line-row2 {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    background-color: black;
+    position: absolute;
+    width: 396.709px;
+    /* right: 0; */
+    top: 263.8rem;
+    z-index: 1000;
+    height: 42.3rem;
+    left: 213px;
+}
+
+.another-galery {
+    top: 70rem;
+    right: 50rem;
+}
+
+.another-galery img {
+    margin-right: 5rem;
+}
+
+.another-galery p {
+    margin-left: 0;
+    position: relative;
+    width: 28rem;
+    left: 5rem;
+    top: 2rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+
+.car-pic {
+    position: absolute;
+    top: 330rem;
+    width: 98rem;
+    right: 23rem;
+}
+
+.military-text-class {
+    position: absolute;
+    top: 397rem;
+    width: 89rem;
+    right: 0;
+}
+
+.military-column-class {
+    position: absolute;
+    column-count: 2;
+    top: 389rem;
+    padding: 16rem;
+}
+
+.couppic {
+    position: absolute;
+    top: 444rem;
+    /* right: 0; */
+    /* left: 0; */
+    width: 100%;
+}
+
+.haake {
+    position: relative;
+    top: 458rem;
+}
+
+.haake-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.haake-flex img {
+    width: 42rem;
+    height: 34rem;
+}
+
+.column-haake {
+    column-count: 2;
+    padding: 5rem 10rem;
+    column-gap: 26rem;
+}
+
+.nixonflex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.haake figcaption {
+    position: relative;
+    left: 8rem;
+    bottom: 4rem;
+}
+
+.museumflex {
+    display: flex;
+    align-items: flex-start;
+    padding: 5rem 13rem 0 3rem;
+    /* margin: 6rem; */
+}
+
+.museumflex p {
+    margin: 0 18rem;
+    line-height: 2.3rem;
+}
+
+.museumflex img {
+    border: solid;
+    padding: 3rem;
+}
+
+.museumfigcaption {
+    position: relative !important;
+    left: 76rem !important;
+    bottom: 2rem !important;
+}
+
+.hitler {
+    width: 100%;
+}
+
+.columnrichards {
+    columns: 2;
+    padding: 3rem 10rem;
+    column-gap: 15rem;
+}
+
+.horstkeller {
+    max-width: 41rem;
+    position: relative;
+    left: 67rem;
+}
+
+.seventeen {
+    position: absolute !important;
+    width: 35rem !important;
+    left: 13rem !important;
+}
+
+.seventeenfigcaption {
+    top: 27rem;
+    font-size: 24px;
+    position: relative !important;
+}
+
+.rosalindaclaus {
+    margin: 6rem 12rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clausfig {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 4rem;
+}
+
+.octomber-journal {
+    max-width: 41rem;
+    margin: 0px 8rem;
+    line-height: 3rem;
+    font-weight: 600;
+    align-items: flex-end;
+}
+
+.journal-stat {
+    display: flex;
+}
+
+.octomber-journal-text-finish {
+    margin-left: 13rem;
+    bottom: 10rem;
+    position: relative;
+}
+
+.octomber-paragraph1,
+.octomber-paragraph2 {
+    max-width: 40rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.octomber-paragraph2 {
+    margin-top: 10rem;
+}
+
+.fifteenthpic {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 62%;
+    border: solid yellow;
+    padding: 3rem 7rem;
+    bottom: 7rem;
+}
+
+.eduard-mane {
+    position: relative;
+    bottom: 22rem;
+    left: 5rem;
+}
+
+.eduard-manes-figcaption {
+    bottom: 20rem !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    left: 6rem !important;
+}
+
+.haake-gamodzieba {
+    position: absolute;
+    max-width: 44rem;
+    left: 72rem;
+    line-height: 3rem;
+}
+
+.eduard-manes-figcaption p {
+    max-width: 39rem;
+    margin-top: 6rem;
+    line-height: 3rem;
+}
+
+.eduard-manes-figcaption img {
+    margin-top: 6rem;
+    border: none;
+    padding: 17px 42px;
+    position: relative;
+    right: 6rem;
+    background-color: yellow;
+}
+
+
+/* 
+.haake-gamodzieba span {
+    position: relative;
+    top: 3rem;
+} */
